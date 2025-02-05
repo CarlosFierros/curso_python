@@ -30,3 +30,4 @@ if __name__ == '__main__':
         print('everything aight')
     else:
         print('sum went wrong')
+        print("E")
