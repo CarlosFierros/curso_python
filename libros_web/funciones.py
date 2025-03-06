@@ -8,7 +8,7 @@ def leer_archivo_csv(archivo:str)->list:
         return [x for x in csv.DictReader(file)]
    
 def crea_diccionario_titulos(lista:list)->dict:
-    ''' Funcion que crea un diccionario con los titulos de los libros como clave y el resto de los datos como valores'''
+    ''' Funcion que crea un diccionario con los titulos de los libros como clave y el resto de los datos como valoresss'''
     return {x['title']:x for x in lista}
  
 def busca_en_titulo(diccionario, palabra)-> list:
@@ -44,6 +44,6 @@ if __name__ == '__main__':
     diccionario_autores = crea_diccionario_autor(lista_libros, 'author')
     resultado = busca_en_diccionario(diccionario_autores, 'Susan')
     print()
-    print("================ Busqueda por autor. ======================")
+    print("================ Busqueda por autor.. ======================")
     print("Busqueda por autor")
     print(resultado)
