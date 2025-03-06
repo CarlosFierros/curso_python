@@ -44,6 +44,6 @@ if __name__ == '__main__':
     diccionario_autores = crea_diccionario_autor(lista_libros, 'author')
     resultado = busca_en_diccionario(diccionario_autores, 'Susan')
     print()
-    print("================ Busqueda por autor ======================")
+    print("================ Busqueda por autor. ======================")
     print("Busqueda por autor")
     print(resultado)
